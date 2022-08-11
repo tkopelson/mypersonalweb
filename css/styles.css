@@ -1,0 +1,46 @@
+#topicon {
+    color:white;
+}
+
+body {
+    background-color: #0E141B;
+    color: white ;
+}
+
+nav {
+    margin-bottom: 50px !important;
+    margin-top: 20px !important;
+}
+
+ul {
+    border: 2px solid #0EE6B7;
+    border-radius: 7px;
+    outline: none;
+    border-color: #0EE6B7;
+    box-shadow: 0 0 10px #0EE6B7;
+}
+
+#topicon:hover {
+    color: #0EE6B7;
+    transform: scale(1.2);
+}
+
+h1, h2, p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#foto {
+    margin-top: 30vh;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#home {
+    height: 100vh;
+    background-color: cornflowerblue !important;
+}
+
+#sobremi {
+    height: 100vh;
+    background-color: seagreen;
+}
