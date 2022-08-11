@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Poiret+One&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, html {
+    scroll-behavior: smooth !important; 
+}
+
+html {
+    overflow: hidden;
+}
 #topicon {
     color:white;
 }
@@ -25,22 +39,86 @@ ul {
     transform: scale(1.2);
 }
 
-h1, h2, p {
-    font-family: 'Courier New', Courier, monospace;
+#profile {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin-left: auto;
 }
 
 #foto {
-    margin-top: 30vh;
-    width: 100px;
+    margin-top: 35vh !important;
+    width: 130px;
     border-radius: 50%;
+    border: 2px solid #0EE6B7;
+    outline: none;
+    border-color: #0EE6B7;
+    box-shadow: 0 0 10px #0EE6B7;
+    animation: brillar 3s ease 0s infinite;
+}
+
+@keyframes brillar {
+    0% {
+        border-color: #0EE6B7;
+    }
+    50% {
+        border-color: #0E141B;
+    }
+    100% {
+        border-color: #0EE6B7;
+    }
+}
+
+.saludo {
+    font-family: 'Poppins', sans-serif;
+    animation: glow 3s ease 0s infinite;
+}
+
+#nombre {
+    background: #0EE6B7;
+    background: radial-gradient(ellipse farthest-corner at center center, #0EE6B7 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes glow {
+    0% {
+        transform: scale(1);  
+    }
+    50% {
+        transform: scale(1.03);
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 #home {
     height: 100vh;
-    background-color: cornflowerblue !important;
+}
+
+#texto {
+    margin-top: 5vh;
 }
 
 #sobremi {
     height: 100vh;
     background-color: seagreen;
 }
+
+#estudios {
+    height: 100vh;
+    background-color: blue;
+}
+
+#skills {
+    height: 100vh;
+    background-color: green;
+}
+
+#proyectos {
+    height: 100vh;
+    background-color: red;
+}
+
