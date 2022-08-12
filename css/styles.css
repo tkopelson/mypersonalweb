@@ -30,7 +30,7 @@ nav {
     margin-top: 20px !important;
 }
 
-ul {
+#ull {
     border: 2px solid #0EE6B7;
     border-radius: 7px;
     outline: none;
@@ -107,7 +107,6 @@ ul {
 }
 
 #sobremi {
-    height: 100vh;
     font-family: var(--font-sans);
 }
 
@@ -126,18 +125,70 @@ ul {
 #sobremi em {
     color: #0EE6B7;
 }
-#estudios {
-    height: 100vh;
-    background-color: blue;
-}
 
 #skills {
-    height: 100vh;
-    background-color: green;
+    font-family: var(--font-sans);
+}
+
+#skills h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10% !important;
+    padding-bottom: 1% !important;
+}
+
+#skills p {
+   color: #8892b0;
+}
+
+#skills em {
+    color: #0EE6B7;
+}
+
+.rect { 
+    border-radius: 10%;
+    margin-right: 2px;
+    font-weight: bolder;
+    font-size: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #0EE6B7;
+    border: 2px solid #0EE6B7;
+    outline: none;
+    border-color: #0EE6B7;
+    box-shadow: 0 0 3px #0EE6B7;
 }
 
 #proyectos {
-    height: 100vh;
-    background-color: red;
+    font-family: var(--font-sans);
 }
 
+#proyectos h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10% !important;
+    padding-bottom: 1% !important;
+}
+
+#proyectos p {
+   color: #8892b0;
+}
+
+#proyectos em {
+    color: #0EE6B7;
+}
+
+#proyectos a {
+    color: rgb(251, 255, 0);
+    text-decoration: none;
+}
+
+#proyectos ul {
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+footer {
+    margin-top: 100px;
+}
